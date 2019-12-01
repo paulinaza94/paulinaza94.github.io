@@ -1,0 +1,28 @@
+#container {
+    font-size: 40px;
+}
+
+#container > div {
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+#pixels {   
+    width: 50px;
+    background-color: plum;
+}
+
+#em {
+    width: 20em;
+    background-color: yellowgreen;
+}
+
+#percent {    
+    width: 50%;
+    background-color: aquamarine;
+}
+
+#vh {
+    width: 60vh;
+    background-color: indigo;
+}
