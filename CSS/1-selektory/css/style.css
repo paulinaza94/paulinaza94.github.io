@@ -1,0 +1,32 @@
+* {
+    color: mediumpurple;
+}
+
+#kasia {
+    background-color: purple;
+}
+
+.lorak  {
+    color: slateblue;
+}
+
+div.lorak {
+    color: plum;
+}
+
+a > span {
+    background-color: powderblue;
+}
+
+ul a {
+    text-decoration: none;
+    color: mediumvioletred;
+}
+
+li#pierwszy + li {
+    background-color: orange;
+}
+
+li#pierwszy ~ li {
+    background-color: palevioletred;
+}

@@ -1,0 +1,21 @@
+#name:hover {
+    background-color: royalblue;
+    border: 3px solid red;
+}
+
+#name:focus {
+    background-color: yellowgreen;
+    border: 3px solid yellow;
+}
+
+.customer:first-child {
+    background-color: tomato;
+}
+.customer:nth-child(4) {
+    background-color: turquoise;
+}
+
+.customer:nth-last-child(3) {
+    background-color: blueviolet;
+}
+

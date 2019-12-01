@@ -1,0 +1,23 @@
+[title] {
+    color: purple;
+}
+
+[title="About me"] {
+    background-color: deepskyblue;
+}
+
+[title~="Container"] {
+    background-color: mediumvioletred;
+}
+
+[title*="ll"] {
+    background-color: khaki;
+}
+
+[title^="More"] {
+    background-color: lightgrey;
+}
+
+[title$="portfolio"] {
+    background-color: thistle;
+}
