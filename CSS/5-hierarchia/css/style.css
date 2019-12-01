@@ -1,0 +1,17 @@
+/* Funkcja !important przebija każdy inny styl w html-u/css-ie */
+/* Raczej nie używać !important */
+p {
+    background-color: purple !important;
+}
+
+p {
+    background-color: powderblue;
+}
+
+p.paragraph {
+    background-color: pink;
+}
+
+p#paragraph {
+    background-color: plum;
+}
