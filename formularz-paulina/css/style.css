@@ -1,0 +1,39 @@
+form {
+    background-color: rgba(255, 0, 106, 0.5);
+    color: #ffffff;
+    padding: 30px;
+    width: 650px;
+    height: 650px;
+    
+}
+form label[for="name"], label[for="lastname"], label[for="mail"], label[for="phone"], label[for="city"], label[for="message"] {
+    display: block;
+    margin: 2px;
+
+}
+form input[type="text"], form input[type="email"], form input[type="tel"], form select, textarea {
+    background-color: lightpink;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 25px
+}
+form input:focus, form select:focus, form textarea:focus {
+    background-color: lawngreen;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+}
+form textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+form input[type="submit"] {
+    background-color: purple;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
