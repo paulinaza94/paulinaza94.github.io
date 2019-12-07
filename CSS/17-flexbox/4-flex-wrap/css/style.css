@@ -1,0 +1,18 @@
+.flex-item {
+    columns: #fff;
+    font-family: 'Lato', sans-serif;
+    border: 3px solid yellowgreen;
+    margin: 3px;
+    background-color: crimson;
+    flex-basis: 27%;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: dodgerblue;
+}
+
+.container {
+    border: 5px dashed yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
