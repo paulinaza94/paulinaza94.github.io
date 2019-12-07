@@ -1,0 +1,36 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color:#777;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+header {
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 70vh;
+	color: #333;
+}
+
+h1, span {
+	color: #007bff;
+	text-align: center;
+}
+
+hr {
+	width: 100px;
+	height: 1px;
+	border: none;
+	background-color: #007bff;
+}
+
+a {
+	text-decoration: none;
+	border: 1px solid #007bff;
+	color: #333;
+}
