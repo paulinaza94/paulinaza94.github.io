@@ -6,11 +6,12 @@
 
 #relative {
     position: relative;
-    background-color: crimson;
-    width: 600px;
+    background-color: white;
+    width: 400px;
     height: 400px;
     top: 50px;
     left: 50px;
+    border: black solid;
 }
 
 #absolute {
@@ -20,21 +21,4 @@
     height: 200px;
     top: 10px;
     left: 30px;
-}
-
-#fixed {
-    position: fixed;
-    background-color: lime;
-    width: 400px;
-    height: 150px;
-    bottom: 50px;
-    right: 50px;
-}
-
-#sticky {
-    position: sticky;
-    background-color: gray;
-    width: 100%;
-    height: 100px;
-    top: 40px;
 }
