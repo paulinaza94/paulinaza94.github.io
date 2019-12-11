@@ -1,0 +1,86 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+    .naglowek {
+        width: 100%;
+        height: 50vh;
+        background-image: url("../obrazy/man-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bigger {
+        display: none;
+    }
+}
+
+@media (min-width:992px) and (max-width:1170px) {
+    .naglowek {
+        width: 100%;
+        height: 70vh;
+        background-image: url("../obrazy/man-2.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+
+        
+    }
+
+    .small {
+        font-size: 0;
+        display: none;
+    }
+
+    .bigger {
+        color: white;
+        width: 50%;
+    }
+}
+
+@media (min-width:1171px) {
+    .naglowek {
+        width: 100%;
+        height: 100vh;
+        background-image: url("../obrazy/man-1.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .small {
+        font-size: 0;
+        display: none;
+    }
+
+    .bigger {
+        /* border: red solid 2px; */
+        color: white;        
+    }
+}
