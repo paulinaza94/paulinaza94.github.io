@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 15px;
+}
+
+section.main-section {    
+    background-image: url("../img/bg-pattern.png"), linear-gradient(260deg, rgba(123,60,164,1) 11%, rgba(253,29,29,1) 100%);
+    background-repeat: repeat;   
+    width: auto;
+    height: 100vh;
+    border: white solid 2px;
+    align-items: center;
+}
+
+div.left-main, div.left-main a {
+    color: rgb(253, 204, 82);
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.94;
+    border: white solid 2px;
+}
+
+div.right-main, div.right-main a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.92;
+    border: white solid 2px;
+}
+
+nav.container {
+    display: flex;
+    padding: 1em;
+    border: white solid 2px;
+}
+
+li {
+    margin: 15px;
+    display: inline;
+    text-transform: capitalize;
+    border: white solid 2px;
+}
+
+.introduction-phone, .introduction {
+    border: white solid 2px;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+
+}
+
+/* div.introduction {
+    left: 0;
+    color: white;
+    font-size: 2em;
+    display: inline;
+}
+
+div.introduction a {
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    width: 70%;
+    height: auto;
+}
+
+div.introduction-phone {
+    /* background-image: url("../img/iphone.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 100vh;
+    right: 0; */
