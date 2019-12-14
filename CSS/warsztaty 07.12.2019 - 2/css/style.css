@@ -1,25 +1,29 @@
-body {
+* {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
-	color:#777;
 	margin: 0 auto;
 	padding: 0 auto;
 }
 
 header {
+	padding: 150px;
 	background-image: url("../img/header.jpg");
 	background-size: cover;
 	background-position: center;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	height: 70vh;
 	color: #333;
 }
 
-h1, span {
+h1 {
 	color: #007bff;
 	text-align: center;
+	font-size: 60px;
+}
+
+span {
+	color: #007bff;
 }
 
 hr {
@@ -29,8 +33,127 @@ hr {
 	background-color: #007bff;
 }
 
-a {
+p {
+	padding: 50px;
+	text-align: center;
+}
+
+a.wiecej, a.nastepne, form input[type="submit"] {
+	padding: 10px;
 	text-decoration: none;
+	text-transform: uppercase;
 	border: 1px solid #007bff;
 	color: #333;
+}
+
+nav {
+	background-color: #007bff;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	z-index: 200;
+}
+
+.menu-item {
+	padding: 15px;
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0em 1em;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: white;
+}
+
+.sekcje, h2 {
+	text-align: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	padding: 20px;
+	color: #333;
+}
+
+img#about-me {
+	height: 250px;
+	width: auto;
+	border-radius: 50%;
+	margin: 0;
+}
+
+div#o-mnie {
+	text-align: center;
+	padding: 20px;
+	color: #777;
+}
+
+p.o-mnie {
+	padding: 1.5em 17em;
+	font-size: 20px;
+}
+
+div#portfolio {
+	background-color: #f2f1ed;
+	padding: 45px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	font-size: 0;
+}
+
+div#portfolio h2 {
+	margin-bottom: 25px;
+}
+
+#portfolio img {
+	height: 175px;
+	width: auto;
+	display: inline-block;
+}
+
+footer {
+	background-color: #f2f1ed;
+	color: #777;
+	font-size: 14px;
+	text-align: center;
+	padding: 20px;
+}
+
+div#formularz {
+	padding: 65px;
+	text-align: center;
+}
+
+form input[type="submit"] {
+	background-color: white;
+	margin: 15px;
+}
+
+form input[type="text"], form input[type="email"] {
+	width: 300px;
+	height: 30px;
+	margin: 15px;
+	font-size: 15px;
+	color: #777;
+}
+
+form textarea {
+	width: 637px;
+	height: 150px;
+	font-size: 15px;
+	color: #777;
+}
+
+div.ikonki {
+	height: 100px;
+	text-align: center;
+}
+
+div.ikonki i {
+	display: inline;
+	font-size: 50px;
+	color: #007bff;
+	margin: 10px;
 }

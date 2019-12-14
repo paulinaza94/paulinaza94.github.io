@@ -36,4 +36,10 @@ form input[type="submit"] {
     border: none;
     padding: 10px 20px;
     text-transform: uppercase;
+    color: #23f;    
+    color: rgb(205,1,17);
+    color: rgba(200,100,12, 0.6);
+    /* color: #23ffg5; */
+
 }
+
